@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: medium;
+    background-color: #FFFFFF;
+
+}
+
+header {
+
+    color: #000026;
+    background-color: #007BFF;
+
+}
+
+
+
+nav ul li {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+}
+
+.nav-url {
+    text-decoration: none;
+    color: #c5def9;
+}
+
+.nav-url:hover {
+    text-decoration: none;
+    color: rgb(13, 3, 80);
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+
+    background: white;
+}
+
+.head-p {
+    color: white;
+}
+
+.cover-pic {
+
+
+    padding: 6%;
+    width: 100%;
+    background-color: #007BFF;
+
+}
+
+
+
+
+.about-us {
+    background-color: white;
+}
+
+.about-pic {
+    border: none;
+    border-radius: 5%;
+    width: 40%;
+}
+
+.goal-border {
+
+    background-color: #cacacadb;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.goal-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    margin: 3%;
+}
+
+.company-detail {
+    display: none;
+}
+
+.card-image {
+    margin: 7%;
+    margin-top: 5px;
+    padding: 5%;
+}
+
+
+.card-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: medium;
+
+
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.workbase-heading {
+
+    background-color: rgb(0, 22, 90);
+    color: white;
+    padding: 15px;
+    border: navajowhite;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.work-based {
+    background-color: #007BFF;
+}
+
+.our-work {
+
+    background-color: #FFFFFF;
+
+}
+
+.worked-box {
+
+    border: none;
+    border-radius: 5%;
+    margin: 5%;
+    box-shadow: 0 0 30px rgb(33 33 33 / 20%);
+
+}
+
+.card2-image {
+    margin: 7%;
+    margin-left: 0;
+    margin-top: 5px;
+    padding: 5%;
+}
+
+.topic-title {
+
+    padding-left: 2%;
+    padding-top: 3%;
+}
+
+
+
+.contact {
+
+    background-color: #FFFFFF;
+}
+
+
+.phone-icon {
+
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    border: none;
+
+}
+
+.contact-detail {
+
+    padding-bottom: 5%;
+    margin: 7%;
+}
+
+.heading-contact {
+
+    color: #007BFF;
+    border-radius: 15px;
+    padding-bottom: 5%;
+    /* margin: 7%; */
+
+
+}
+
+.card-border {
+
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.form-input {
+
+
+    padding: 2%;
+    padding-right: 350px;
+    /* padding-left: 210px; */
+    margin: 5%;
+
+    color: black;
+    border-radius: 25px;
+}
+
+
+.heading-form {
+    color: #007BFF;
+}
+
+.msg-box {
+    /* padding-left: 32%; */
+    padding-right: 400px;
+}
+
+
+/* message-list page  */
+
+
+
+
+.message-list {
+
+    background-color: rgb(0, 22, 90);
+    color: white;
+}
+
+.message-list:hover {
+
+    background-color: rgb(0, 22, 90);
+    color: wheat;
+    cursor: grab;
+}
