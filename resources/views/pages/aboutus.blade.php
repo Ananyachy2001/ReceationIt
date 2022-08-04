@@ -4,7 +4,7 @@
 <main>
     <div id="about" class="about-us">
 
-        <div class="d-flex justify-content-around align-middle m-3 p-5"> 
+        <div class="d-flex justify-content-around align-middle m-0 p-5"> 
             <img class="about-pic" src="{{url('images/1.jpg')}}" alt="">
 
             <div class="">

@@ -7,7 +7,7 @@
 
                 <h1 class="text-center fw-bold workbase-heading">Work based</h1>
 
-                <div class="row row-cols-1 row-cols-md-3 g-3 m-5">
+                <div class="row row-cols-1 row-cols-md-3 g-3 ">
                     <div class="col p-5 ">
                       <div class="card ">
                        

@@ -10,8 +10,8 @@
         
     </head>
     <body class="">
-        <header class=" ">
-            <div class="d-flex justify-content-between align-items-center  ">
+        <header class="">
+            <div class="d-flex justify-content-between align-items-center  container-fluid ">
 
                 <div class="d-flex justify-content-center align-items-center ">
                     <img class="img-fluid w-25" src="{{url('images/Transparent1.jpg')}}" alt="">
@@ -23,13 +23,13 @@
                 </div>
 
 
-                <nav class=" navbar navbar-expand-lg navbar-light ">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class=" navbar navbar-expand-xl  navbar-light ">
+                      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ">
-                          <li class="nav-item">
+                          <li class="nav-item ">
                             <a class="nav-url active navhover" aria-current="page" href="{{route('homepage')}}">Home</a>
                           </li>
                           <li class="nav-item">
@@ -41,11 +41,29 @@
                           <li class="nav-item">
                             <a class="nav-url navhover" href="{{route('workbased')}}">Work Based</a>
                           </li>
+
                           <li class="nav-item">
                             <a class="nav-url navhover" href="{{route('contact')}}">Contact</a>
                           </li>
 
+                          <li class="nav-item">
+                            <a class="nav-url navhover" href="{{route('admin.noticelist')}}">Notices</a>
+                          </li>
+
                           @if(Session::get('username')) 
+
+                          <li class="nav-item">
+                            <a class="nav-url navhover" href="{{route('career.jobadd')}}">Post Jobs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-url navhover" href="{{route('career.joblist')}}">Career</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-url navhover" href="{{route('career.applylist')}}">See Applies</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-url navhover" href="{{route('admin.noticeadd')}}">Add Notice</a>
+                          </li>
                           <li class="nav-item">
                             <a class="nav-url navhover" href="{{route('logout')}}">Logout</a>
                           </li>
@@ -64,14 +82,14 @@
         </header>
 
 
-        <main>
+        <main class="">
             
                 @yield('content')
             
         </main>
 
 
-        <footer class="text-center mt-3">
+        <footer class="text-center p-5 m-0 foot-border">
             <h5>&copy; 2022 Recreation IT.</h5>
             <h5>Designed and Developed by Recreation IT.</h5>
           </footer>
