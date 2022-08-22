@@ -51,7 +51,7 @@ class ApplyController extends Controller
         );
         $newResName = time() . '-' . $request->name . '.' .
         $request->res_path->extension();
-        $request->res_path->move(public_path('files'),$newResName);
+        $request->res_path->move(storage_path('files'),$newResName);
     
         $var = new Apply();
         $var->title = $request->title;

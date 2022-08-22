@@ -3,7 +3,7 @@
 @if(Session::get('admin_id'))
 
 <main>
-    <div id="our-wrk" class="our-work">
+    <div id="our-work" class="our-work">
         <h1 class="text-center fw-bold">Our Work</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-3 m-5">

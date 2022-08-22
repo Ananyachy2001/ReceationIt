@@ -2,28 +2,28 @@
 @section('content')
 @if(Session::get('admin_id')) 
 
-<div class="full-form">
-    <form action="{{route('admin.noticeaddedit')}}" class="col-md-6" method="post">
+<div class=" full-form text-center notice-bg">
+    <form action="{{route('admin.noticeaddedit')}}" class="" method="post">
         <!-- Cross Site Request Forgery-->
         {{csrf_field()}}
         <input type="hidden" name="id" value="{{$admins->id}}"> 
-        <div class="col-md-4 form-group mb-3">
-            <span class="label-job m-3 pe-3">Title</span>
+        <div class="label-job form-group mb-3">
+            <span class=" m-3 pe-3">Title</span>
             <input type="text" name="title" value="{{$admins->title}}" class="form-control m-3">
             @error('title')
                 <span class="text-danger">{{$message}}</span>
             @enderror
         </div>
-        <div class="col-md-4 form-group mb-3">
-            <span class="label-job m-3 pe-3">Description</span>
+        <div class=" label-job form-group mb-3">
+            <span class=" m-3 pe-3">Description</span>
             <input type="text" name="description" value="{{$admins->description}}" class="form-control m-3">
             @error('description')
                 <span class="text-danger">{{$message}}</span>
             @enderror
         </div>
-        <div class="col-md-4 form-group mb-3">
+        <div class="label-job form-group mb-3">
             
-            <span class="label-job m-3 pe-3">Images</span>
+            <span class=" m-3 pe-3">Images</span>
             <input type="file" name="image_path" value="{{$admins->image_path}}" class="form-control m-3"> 
             @error('image_path')
                 <span class="text-danger">{{$message}}</span>

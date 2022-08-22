@@ -30,7 +30,7 @@ class NoticeController extends Controller
 
         $newImageName = time() . '-' . $request->name . '.' .
         $request->image_path->extension();
-        $request->image_path->move(public_path('images2'),$newImageName);
+        $request->image_path->move(storage_path('images2'),$newImageName);
 
 
         $var = new Notice();

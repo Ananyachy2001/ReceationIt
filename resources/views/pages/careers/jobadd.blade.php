@@ -1,10 +1,10 @@
 @extends('navbar.inc')
 @section('content')
 @if(Session::get('admin_id')) 
-<div class="full-form">
+<div class="full-form text-center ">
 
 
-    <form  action="{{route('career.jobadd')}}" class="col-md-6 job-add-form" method="post">
+    <form  action="{{route('career.jobadd')}}" class=" job-add-form" method="post">
         {{csrf_field()}}
 
        

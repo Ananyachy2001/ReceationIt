@@ -2,7 +2,9 @@
 @section('content')
 
   @if(Session::get('admin_id')) 
-    <table class="table table-borded m-0">
+    <div class="notice-list">
+
+      <table class="table table-borded m-0 ">
         
         <tr>
             <th>Title</th>
@@ -15,14 +17,15 @@
             <tr>
                 <td>{{$admin->title}}</td>
                 <td>{{$admin->description}}</td>
-                <td><img src="{{ asset('images2/'.$admin->image_path) }}" class="w-50 container-fuild" alt=""></td>
+                <td><img src="{{ asset('images2/'.$admin->image_path) }}" class="noticelist-card w-75" alt=""></td>
                 
                 <td><a class="btn btn-warning" href="/admin/noticeaddedit/{{$admin->id}}/{{$admin->title}}">Edit</a></td>
                 <td><a class="btn btn-danger"  href="/admin/delete/{{$admin->id}}/{{$admin->title}}">Delete</a></td>
                
             </tr>
         @endforeach
-    </table>
+      </table>
+    </div>
     @else
     <div id="wrk-based" class="work-based ">
     

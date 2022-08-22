@@ -2,7 +2,7 @@
 @section('content')
 
 <main>
-  <div id="cont" class="">
+  <div id="cont" class="contact-div">
       <div class="row  row-cols-1  g-3 m-5">
          <div class="col-12 col-md-12  col-xl-4">
            <div class="card card-border">
@@ -93,7 +93,7 @@
 
      
 
-   </div>
+  </div>
           
 </main>
 
